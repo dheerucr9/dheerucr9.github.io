@@ -1,0 +1,57 @@
+.removePadding {
+  padding: 0px;
+}
+
+.header {
+  height: 50px;
+  font-size: 18px;
+  background-color: #333;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+header div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+header a {
+  color: rgb(255, 255, 255);
+}
+
+header a:hover {
+  text-decoration: none;
+  color: gray;
+}
+
+
+.floatLeft {
+  float: left;
+}
+
+.clearLeft {
+  clear: left;
+}
+
+.someTab {
+  padding-left: 10px;
+}
+
+.contact {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.contactFooter {
+  position: absolute;
+  bottom: 10px;
+}
+
+#education, #experience, #projects {
+  padding-left: 25px;
+}
+
+.lvl1 {
+  padding-left: 10px;
+}
