@@ -34,6 +34,17 @@ header a:hover {
   clear: left;
 }
 
+.shortBio {
+  position: fixed;
+  background: #111;
+  height: 100%;
+  width: 30%;
+}
+
+.RestData {
+  margin-left: 70%;
+}
+
 .someTab {
   padding-left: 10px;
 }
@@ -48,10 +59,37 @@ header a:hover {
   bottom: 10px;
 }
 
-#education, #experience, #projects {
-  padding-left: 25px;
-}
+
 
 .lvl1 {
   padding-left: 10px;
+}
+
+#timeline, #projects {
+  margin-left: 50px;
+}
+
+.marginLeft{
+  margin-left: 50px;
+  margin-right: 10%;
+}
+
+#shotBio li {
+  font-size: 18px;
+}
+
+.resumefloatright {
+  font-size: 20px;
+  padding-left: 50%;
+}
+
+.resumefloatright a{
+  display: inline-block;
+  margin-top: 5px;
+  padding-top: 5px;
+}
+
+.changeBlock {
+  display: inline-block;
+  margin-top: 5px;
 }
