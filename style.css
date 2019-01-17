@@ -59,7 +59,9 @@ header a:hover {
   bottom: 10px;
 }
 
-
+footer {
+  background: white;
+}
 
 .lvl1 {
   padding-left: 10px;
@@ -113,4 +115,8 @@ header a:hover {
   height: 400px;
   width: 300px;
   margin-top: -50px;
+}
+
+.main {
+  margin-bottom: 50px;
 }
