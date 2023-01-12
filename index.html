@@ -84,6 +84,29 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
+            <div data-date="Aug 2021 - Present">
+                <h3>Emotive</h3>
+                <h4>Senior Software Engineer</h4>
+                <p>
+										•	 &nbsp;&nbsp;Designed and implemented a well-documented JWT based Auth Service with 97% code coverage. Service provided RBAC, social login and ability to impersonate customers. <br>
+										•	 &nbsp;&nbsp;Compiled full list of APIs along with their authentication type, access control. Migrated the identified APIs to accept JWT authentication, by being backward compatible with previous auth type. Added impersonation information to logs to track actions. <br>
+										•	 &nbsp;&nbsp;Developed, published an internal python package for providing JWT based auth helper tools to support internal micro-services. <br>
+										•	 &nbsp;&nbsp;Fully integrated Auth0 (as part of a tiger team) across all environments, to front custom Auth Service within a deadline of 3 weeks.  <br>
+                                        •	 &nbsp;&nbsp;Gathered system, usage requirements and performed cost analysis for Auth0 pricing plans. <br>
+                                        •	 &nbsp;&nbsp;Designed a system to automate a recurring message archival job with data partitioning, which had to be run manually for the past few years. This reduced OLTP DB from weeks of data (~100 million records) to only contain data for the past few hours (few million). <br>
+                </p>
+            </div>
+            <div data-date="Feb 2020 - Aug 2021">
+                <h3>Emotive</h3>
+                <h4>Software Engineer</h4>
+                <p>
+										•	 &nbsp;&nbsp;Redesigned and implemented broadcasts, which is the process of sending millions of SMS+MMS messages within a short period of time without DDOSing a messaging provider. Core design has been able to deliver consistent performance for the past 3 years, sending 100s for messages per second, when the system is under load. <br>
+                                        •	 &nbsp;&nbsp;Converted application logs from regular strings to JSON format. Enabled log collection, shipping to Datadog thereby allowing APM traces to be connected to related logs. This change also facilitates a future move to ELK stack. Extracted, included log formatting to a common package in private repo in order to standardize application logs across services. <br>
+                                        •	 &nbsp;&nbsp;Implemented a redesign that increased the rate of sending messages from 25 msgs/sec for all customers to 25 msgs/sec per customer. <br>
+                                        •	 &nbsp;&nbsp;Performed a user “opt-out” preference data cleanup by scheduling, downloading, parsing 2 years worth of messages from Twilio. <br>
+                                        •	 &nbsp;&nbsp;Brought up an alerting system for broadcasts that do not start or run late, which has been relied on for the past 3 years. <br>
+                </p>
+            </div>
             <div data-date="May 2019 – Aug 2019">
                 <h3>Amazon</h3>
                 <h4>Software Development Engineer Intern</h4>
